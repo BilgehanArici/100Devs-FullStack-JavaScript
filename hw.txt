@@ -1,0 +1,11 @@
+look at the celebrations channel and read 50 pinned msgs
+
+create a plan for the next 30 weeks this sunday
+
+Anyone who can program is a Programmer. This does not mean the title is worthless, since skilled programmers are highly valuable; they work on things ranging from 3D rendering algorithms to high-frequency trading bots to Google Pagerank.
+
+A Coder is someone who writes code. This usually means program code, which makes him/her a programmer, but can be any type of code, e.g. HTML (the markup language making up webpages).
+
+Anyone who develops anything IT-related is a Developer. This can involve programming, but can also be database design, user interface work, 3D modelling, you name it.
+
+Anyone who applies the principles of software engineering is a Software Engineer. This usually involves a broad range of activities, ranging from requirements engineering and software design to documentation, version control, testing, and QA.
