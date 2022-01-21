@@ -1,0 +1,98 @@
+cd in terminal?
+cd : change directory
+ls : look inside
+.. : go up a level
+cd desktop => ls Software for eg
+
+css syntax : 
+selector {
+    property: value;
+    font-weight: bold;
+}
+selector and decleration block > declerations > properties > values
+we got 2 declerations here and 1 decleration block
+
+come back to slides tonight to get the vocabulary down good
+
+2 sides of interview > technical inteview adn communication 
+more you know the basics and vocab more you are comfortable with comm.
+
+css is read top to bottom 
+what comes below can override what came above
+this is called the CASCADE
+p{
+    color: red;
+    font-weight: bold;
+}
+p{
+    color:blue;
+}
+all of our paragraphs are gonna wind up being blue. also bold because we didnt overwrite bold 
+These guys have the same level of specifity
+
+4 main ways to color in css
+word
+h1{
+    color: red;
+}
+hex
+h2{
+    color: #FF0000;
+}
+RGBa
+p{
+    color: rgba(255,0,0,1); red green blue alpha(transperency)
+}
+HSLa{
+    color: hsla(0, 100%, 50%,1); hue saturation lightness alpha
+}
+at amazon they might care about loading speed. and the hexidecimal value is the fastest way to load a color. microseconds but still...
+
+font family: use google fonts easy.
+cdn : content delivery network
+if you want a font you nedd to link to in your head, the link to the font needs to come before the css link
+in the css font family you will often use multiple fonts in order for fallbacks
+in google fonts you can select multiple weights(boldness) of fonts. if you dont select 300 weight in fonts you cant make it 300. make sure to grab the weights you are gonna use
+why not grab all the weights? => speed
+
+italicize+text+css+mdn USE MDN
+
+
+targeting specific elemetns
+selecting by relationship 
+direct child section > p
+parent child section p
+direct sibling p + p (the first sibling wouldnt change) 
+
+stuff that comes below overwrites stuff in above. however below should have more points of specifity in order to overwrite(?)
+
+1 point for a tag
+10 point for a class
+100 point for id
+1000 points for Inline Style and !important
+so your selector would need 10 classes to overwrite an ID
+
+cascade => make a big change to a multiple elements then use cascade to target and change a specific element properties
+
+one tag and one class = 11 points
+section .bob{
+color: red;
+}
+
+using inline style it makes it next to impossible to overwrite. dont do it
+
+section .bob{
+color: red !important;
+}
+impossible to overwrite
+
+only use !important if you have a client project that is due in 10 minutes and you cant figure it out, use it for that presentation and figure it out later.
+
+
+
+
+
+
+
+
+
