@@ -7,7 +7,7 @@ section > h2{
 }
 
 article > h2{
-    color: red !important;
+    color: red ;
     font-weight: bold;
     font-size: 30px;
 }

@@ -1,6 +1,6 @@
 cd in terminal?
 cd : change directory
-ls : look inside
+dir : directory of
 .. : go up a level
 cd desktop => ls Software for eg
 
