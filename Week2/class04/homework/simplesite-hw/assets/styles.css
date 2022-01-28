@@ -1,0 +1,48 @@
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.navTop > li {
+    display: inline-block;
+}
+
+.navTop {
+    text-align: center;
+    font-weight: bold;
+}
+
+.navTop > li > a {
+    color: greenyellow;
+}
+
+.LeonImage {
+    float: right;
+}
+
+.navBottom > li {
+    display: inline-block;
+}
+
+.navBottom {
+    text-align: center;
+    font-weight: bold;
+}
+
+.navBottom > li > a {
+    color: greenyellow;
+}
+
+body {
+    background-color: lightskyblue;
+    border: solid greenyellow;
+    padding: 50px;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
