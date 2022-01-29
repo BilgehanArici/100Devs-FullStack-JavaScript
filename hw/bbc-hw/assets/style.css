@@ -1,0 +1,41 @@
+.navTop li{
+    display: inline-block;
+    padding: 20px;
+}
+
+.navTop {
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.navTop li a{
+    color: white
+}
+
+.bbcLogo a img{
+    width: 70px;
+    height: auto;
+}
+
+section.moduleHeading>h2>span{
+    padding-left: 250px;
+}
+
+section.moduleHeading>h2>span+span{
+    padding-left: 750px;
+}
+
+.mainSec{
+    padding-left: 250px;
+}
+
+.mainSec>a>img{
+    background: 0%;
+}
+
+.mainSec>a>p{
+    position: absolute;
+}
+
+
