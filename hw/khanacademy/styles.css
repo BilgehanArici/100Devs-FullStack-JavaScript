@@ -1,0 +1,19 @@
+body>header>nav>ul>li{
+    display: inline-block;
+    padding-left: 150px;
+    font-weight: 600;
+}
+
+body>header>nav>ul>li>a{
+    text-decoration: none;
+}
+
+.headingImage{
+    display: inline-block;
+    padding-left: 300px;
+}
+
+.headingInfo{
+    display: inline-block;
+    line-height: 120px;
+}

@@ -27,15 +27,8 @@ section.moduleHeading>h2>span+span{
 }
 
 .mainSec{
-    padding-left: 250px;
-}
-
-.mainSec>a>img{
-    background: 0%;
-}
-
-.mainSec>a>p{
-    position: absolute;
+    background-image: url(https://picsum.photos/500/300);
+    color: white;
 }
 
 
