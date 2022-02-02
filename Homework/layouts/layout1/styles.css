@@ -1,0 +1,30 @@
+header>section {
+    height: 150px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.upperTrio {
+    box-sizing: border-box;
+    float: left;
+    height: 200px;
+    width: 33.3333%;
+    border: 1px solid black;
+}
+
+.lowerDuo {
+    box-sizing: border-box;
+    float: left;
+    height: 250px;
+    width: 50%;
+    border: 1px solid black;
+}
+
+
+footer>section {
+    display: inline-block;
+    height: 150px;
+    width: 100%;
+    border: 2px solid black;
+}
+
