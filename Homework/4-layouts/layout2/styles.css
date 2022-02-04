@@ -1,0 +1,39 @@
+header>section {
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 150px;
+    width: 100%;
+}
+
+.upperSection{
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 200px;
+    width: 100%;
+}
+
+.lowerDuo1{
+    box-sizing: border-box;
+    float: left;
+    width: 33.3333%;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.lowerDuo2{
+    box-sizing: border-box;
+    float: right;
+    width: 66.6666%;
+    height: 250px;
+    border: 1px solid black;
+}
+
+footer>section{
+    box-sizing: border-box;
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+    clear: both ;
+}
+
+

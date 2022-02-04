@@ -1,0 +1,48 @@
+header>section {
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.middleOne{
+    float: left;
+    box-sizing: border-box;
+    height: 400px;
+    width: 20%;
+    border: 1px solid black;
+}
+
+.middleTwo{
+    float: left;
+    box-sizing: border-box;
+    height: 400px;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.middleThree{
+    float: left;
+    box-sizing: border-box;
+    height: 400px;
+    width: 20%;
+    border: 1px solid black;
+}
+
+.middleFour{
+    float: right;
+    box-sizing: border-box;
+    height: 400px;
+    width: 20%;
+    border: 1px solid black;
+}
+
+footer>section{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    clear: both;
+}
+
+
+
+
