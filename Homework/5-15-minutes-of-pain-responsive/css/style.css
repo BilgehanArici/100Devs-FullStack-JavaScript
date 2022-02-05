@@ -42,33 +42,54 @@ section {
      border: 2px solid black;
 }
 
-@media (max-width: 800px) {
-     section {
-          background-color: turquoise;
+*{
+     font-size: 50px;
+     text-align: center;
+}
+
+span {
+     margin: 0 auto;
+}
+
+@media (min-width:1400px) and (max-width:1600px) {
+     header {
+          background: red;
+     }
+}
+
+@media (min-width:1200px) and (max-width:1400px) {
+     .left {
+          background: orange;
+     }
+}
+
+@media (min-width:1000px) and (max-width:1200px) {
+     .middle {
+          background: yellow;
+     }
+}
+
+@media (min-width:800px) and (max-width:1000px) {
+     .right {
+          background: green;
+     }
+}
+
+@media (min-width:600px) and (max-width:800px) {
+     footer {
+          background: blue;
      }
 }
 
 @media (hover: hover) {
      header:hover {
-          background-color: black;
+          background: black;
      }
 }
 
 @media (hover: hover) {
      footer:hover {
-          background-color: yellow;
-     }
-}
-
-@media (hover: hover) {
-     section:hover {
-          background-color: brown;
-     }
-}
-
-@media (hover: hover) {
-     section + section + section:hover {
-          background-color: blueviolet;
+          background: yellow
      }
 }
 
