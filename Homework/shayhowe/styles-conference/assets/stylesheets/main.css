@@ -60,10 +60,33 @@ table {
   box-sizing: border-box;
 }
 
-.container {
+.container, .grid {
   width: 960px;
-  padding: 0 30px;
   margin: 0 auto;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.col-1-3 {
+  width: 33.3333%
+}
+
+.col-2-3 {
+  width: 66.6666%
+}
+
+.col-1-3, .col-2-3 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* we need to put our columns inside of a grid and give the grid some padding as well. WHY? => because if the grid doesnt have padding, the center gap would be greater than gaps on the edge. */
+.grid, .col-1-3, .col-2-3 {
+  padding-left:15px;
+  padding-right: 15px;
 }
 
 /*
