@@ -52,6 +52,7 @@ header nav ul {
      color: black;
      margin: 0;
 
+     padding: 0;
      list-style: none;
 }
 
@@ -149,7 +150,73 @@ main section h2 {
      text-align: center;
 }
 
+@media screen and (max-width:1375px) {
+     nav img{
+          display: none;
+     }
+     .hairdressers, .promotion, .lookbook {
+          display: none;
+     }
+     .desktopView {
+          display: none;
+     }
+     .tabletView {
+          display: block;
+          padding: 0;
+          margin: 0;
+          width: 25%;
+     }
+     main {
+          height: max-content;
+          padding: 0 0 20px 0;
+          width: 100%;
+          text-align: center;
+          
+     }
+     main > * {
+          padding: 0;
+          margin: 0;
+          width: 100%;
+          text-align: center;
+     }
+     .bookOnline{
+          margin: 10% auto;
+          padding: 0;
+          text-align: center;
+     }
+}
 
+@media screen and (max-width:920px) {
+     .readMoreSection{
+          display: none;
+     }
+}
+
+@media screen and (max-width:720px) {
+     .readMoreSection{
+          display: none;
+     }
+     .tabletView{
+          display: none;
+     }
+     .mobileView {
+          display: block;
+          padding: 0%;
+          margin: 0;
+          width: 33.3333%;
+          text-align: center;
+     }
+     nav ul li {
+          width: 33.3333%;
+          text-align: center;
+     }
+     .bookOnline{
+          margin: 10% auto;
+          padding: 0;
+          text-align: center;
+          width: 50%;
+     }
+}
 
 
 /******************************************
