@@ -1,9 +1,17 @@
-document.querySelector('#check').addEventListener('click', check)
+// event listener (olay dinleyicisi)
 
-function check() {
+document.querySelector('#check').addEventListener('click', daySelector)
 
-  const day = document.querySelector('#day').day
+function daySelector() {
+  const day = document.querySelector('#day').value
 
-  //Conditionals go here
-  
+  if(day === 'saturday' || day === 'sunday'){
+    alert('weekend')
+  }else if(day === 'tuesday' || day=== 'thursday'){
+    alert('class day')
+  }else if(day === 'monday' || day==='wednesday' || day === 'friday'){
+    alert('boring day')
+  }else {
+    alert('TRY AGAIN')
+  }
 }

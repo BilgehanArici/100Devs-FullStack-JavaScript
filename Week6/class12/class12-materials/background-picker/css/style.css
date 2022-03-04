@@ -34,15 +34,16 @@ li{
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-#purple{
-  background: rgba(241,63,247,1);
+
+#red {
+  background-color: red;
 }
-#green{
-  background: rgba(0,253,81,1);
+#blue {
+  background-color: blue;
 }
-#blue{
-  background: rgba(0,254,255);
+#green {
+  background-color: green;
 }
 #orange {
-  background: orange
+  background-color: orange;
 }
