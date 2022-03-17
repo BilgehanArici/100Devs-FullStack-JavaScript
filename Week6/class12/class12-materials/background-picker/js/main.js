@@ -6,11 +6,13 @@ document.getElementById('green').onclick = greenBackground
 
 document.getElementById('blue').onclick = blueBackground
 
-document.getElementById('orange').onclick = orangeBackground
 
+document.querySelector('#orange').addEventListener('click', partyOrange)
 
-
-
+function partyOrange() {
+  document.querySelector('body').style.backgroundColor = 'orange'
+  document.querySelector('body').style.color = 'white'
+}
 
 
 function redBackground() {
@@ -28,7 +30,3 @@ function blueBackground() {
   document.querySelector('body').style.color = blue
 }
 
-function orangeBackground() {
-  document.querySelector('body').style.backgroundColor= 'orange'
-  document.querySelector('body').style.color = 'white'
-}
