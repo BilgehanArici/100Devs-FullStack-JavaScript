@@ -1,0 +1,14 @@
+hi
+mame: my name is bilgehan
+title: im a software engineer
+what you do: i help people build fullstack web applications 
+(change it according to the meeting topic i help people how to knit hats)
+why you are here: im trying to learn how to network better 
+(change it according to the meeting topic im trying to learn how to knit better)
+greeting: nice to meet you all
+
+
+
+
+
+

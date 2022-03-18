@@ -1,0 +1,17 @@
+header {
+     height: 50px;
+     width: 100%;
+     background: black;
+}
+
+works
+
+header {
+     height: 10%;
+     width: 100%;
+     background: black;
+}
+
+doesnt work
+
+when i give a percentage height value to my header, background property doesnt work. any ideas?
