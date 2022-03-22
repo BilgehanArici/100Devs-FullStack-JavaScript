@@ -72,3 +72,57 @@
 //     x = prompt()
 // }
 
+// const rndInt = Math.floor(Math.random() * 100) + 1
+//     console.log(rndInt)
+
+// // 0 -> 10
+// Math.floor(Math.random() * 11);
+
+// // 1 -> 10
+// Math.floor(Math.random() * 10) + 1;
+
+// // 5 -> 20
+// Math.floor(Math.random() * 16) + 5;
+
+// // -10 -> (-2)
+// Math.floor(Math.random() * 9) - 10;
+
+
+//// explanation
+// function getRandomInteger(min, max) {
+//     min = Math.ceil(min);
+//     max = Math.floor(max);
+//     return Math.floor(Math.random() * (max - min)) + min;
+//   }
+
+//fizzBuzz for
+
+for(x=1;x<=100;x++){
+    if(x%3==0 && x%5==0){
+        console.log('fizzBuzz')
+    }else if(x%3==0){
+        console.log('fizz')
+    }else if(x%5==0){
+        console.log('buzz')
+    }else{
+        console.log(x)
+    }
+}
+
+//fizzBuzz while with showing the number
+// only difference is we need to assign the variable before starting the while loop
+
+let y = 0
+while(y<100){
+    y++
+    if (y%5==0 && y%3==0){
+        console.log('fizzBuzz')
+    }else if(y%3==0){
+        console.log('fizz')
+    }else if (y%5==0){
+        console.log('buzz')
+    }else{
+        console.log(y)
+    }
+}
+
