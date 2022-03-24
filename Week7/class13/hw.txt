@@ -1,9 +1,0 @@
-in logical operators slide change the x to 8 and do again
-
-dom meaning in wedpage
-
-${variable} how to use => `` ticks. inside the tick becomes one string  template literal string
-
-temp = (temp + 32) 132 ???? why
-
-play with all the code yourself/  retype redo 
