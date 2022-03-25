@@ -5,12 +5,12 @@
 
 //const contestants = document.querySelectorAll('.contestant')
 
-const contestants = document.querySelectorAll('.contestant')
+
 
 //Array.from(contestants).forEach(element => element.addEventListener('click', checkForRose))
 
 //for each element in the variable contestants, assign them an event listener for click and running a function called checkForRose
-Array.from(contestants).forEach(element => element.addEventListener('click', checkForRose))
+
 
 
 
@@ -33,6 +33,10 @@ Array.from(contestants).forEach(element => element.addEventListener('click', che
 // 		alert('wrong')
 // 	}
 // }
+
+const contestants = document.querySelectorAll('.contestant')
+
+Array.from(contestants).forEach(element => element.addEventListener('click',checkForRose))
 
 function checkForRose(click){
 	if(click.target.classList.contains('rose')){
