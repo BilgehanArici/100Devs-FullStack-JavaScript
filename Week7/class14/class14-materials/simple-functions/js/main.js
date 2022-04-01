@@ -1,21 +1,23 @@
 //create a function that adds two numbers and alerts the sum
-function addTwoNumbers(num1,num2){
-    alert(num1+num2)
+function addsTwoNumbers(num1,num2){
+    const sum = num1+num2
+    alert(sum)
 }
-
-addTwoNumbers(2,3)
+addsTwoNumbers(1,3)
 
 //create a function that multiplys three numbers and console logs the product
-function multiplyThreeNumbers(num1,num2,num3){
-    const multiplication = num1*num2*num3
-    console.log(multiplication)
+function multipliesThreeNumbers(num1,num2,num3){
+    multiplication = num1*num2*num3
+    alert(multiplication)
 }
-multiplyThreeNumbers(2,3,4)
+multipliesThreeNumbers(1,2,3)
+
 
 //create a function that divides two numbers and returns the quotient
-function dividesTwoNumbers(num1,num2){
-    return num1/num2
+function returnsQuotient(num1,num2){
+    quotient= num1/num2
+    alert(quotient)
 }
+returnsQuotient(100,33)
 
-console.log(dividesTwoNumbers(5,3))
 // return spits out the value to where its called
