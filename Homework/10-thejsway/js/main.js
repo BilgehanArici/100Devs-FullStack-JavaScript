@@ -415,14 +415,25 @@
 // console.log(2 ** 3); // 8: 2 * 2 * 2
 // console.log(3 ** 2); // 9: 3 * 3
 
-//circumfence of a circle 2pi r 
-function circumfenceOfCircle(r){
-    const circumfenceOfCircle = 2*Math.PI*r
-    console.log(circumfenceOfCircle)
-}
-circumfenceOfCircle(4)
+////circumfence of a circle 2pi r 
+// function circumfenceOfCircle(r){
+//     const circumfenceOfCircle = 2*Math.PI*r
+//     console.log(circumfenceOfCircle)
+// }
+// circumfenceOfCircle(4)
 
-//area of a circle pi r square
-const areaOfCircle = r => Math.PI*r**2
+// //area of a circle pi r square
+// const areaOfCircle = r => Math.PI*r**2
 
-console.log(areaOfCircle(4))
+// console.log(areaOfCircle(4))
+
+console.log('hello \nhi')
+console.log('\"this is how you write \'\\n\'\"')
+
+console.log('\'well hello there\'\n\'didn\'t see you coming\'')
+
+console.log("con" + "cat" + "e" + "nate")
+
+console.log(typeof null)
+
+console.log ('a'>'A')
