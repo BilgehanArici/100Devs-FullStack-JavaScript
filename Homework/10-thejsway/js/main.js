@@ -427,13 +427,79 @@
 
 // console.log(areaOfCircle(4))
 
-console.log('hello \nhi')
-console.log('\"this is how you write \'\\n\'\"')
+// console.log('hello \nhi')
+// console.log('\"this is how you write \'\\n\'\"')
 
-console.log('\'well hello there\'\n\'didn\'t see you coming\'')
+// console.log('\'well hello there\'\n\'didn\'t see you coming\'')
 
-console.log("con" + "cat" + "e" + "nate")
+// console.log("con" + "cat" + "e" + "nate")
 
-console.log(typeof null)
+// console.log(typeof null)
 
-console.log ('a'>'A')
+// console.log ('a'>'A')
+
+// let theNumber = Number(prompt("Pick a number"));
+// if (!Number.isNaN(theNumber)) {
+//   console.log("Your number is the square root of " +
+//               theNumber * theNumber);
+// }
+
+// let yourName;
+// do {
+//   yourName = prompt("Who are you?");
+// } while (!yourName);
+// console.log(yourName);
+
+// for (let current = 20; ; current = current + 1) {
+//     if (current % 7 == 0) {
+//       console.log(current);
+//       break
+//     }
+//   }
+
+// switch (prompt("What is the weather like?")) {
+//     case "rainy":
+//       console.log("Remember to bring an umbrella.");
+//       break;
+//     case "sunny":
+//       console.log("Dress lightly.");
+//     case "cloudy":
+//       console.log("Go outside.");
+//       break;
+//     default:
+//       console.log("Unknown weather type!");
+//       break;
+//   }
+
+// // triangle
+// let counter = "#"
+
+// for (i=1;i<=7;i++){
+//     console.log(counter)
+//     counter += "#"
+// }
+
+// // fizzBuzz
+// for(i=1;i<=100;i++){
+//     if (i%3 == 0 && i%5 == 0){
+//         console.log(i + ' fizzBuzz')
+//     }else if(i%3 == 0){
+//         console.log(i+ ' fizz')
+//     }else if (i%5 == 0){
+//         console.log(i + ' buzz')
+//     }
+// }
+
+
+let row = 8
+let column = 8
+let octo = '#'
+
+for (i=1 ; i<=row; i++){
+    console.log(octo)
+    octo += "#"
+}
+
+
+
+
