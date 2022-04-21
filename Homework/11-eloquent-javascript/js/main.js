@@ -254,3 +254,12 @@ if (true){
 console.log(varVariable);
 console.log(letVariable); 
 console.log(amVariable); 
+
+
+if (walkSignal === 'Walk') {
+  console.log('You may walk!'); 
+} else {   
+  console.log('Do not walk!');
+}
+
+walkSignal==='walk' ? console.log('you may walk') : console.log('do not walk')
