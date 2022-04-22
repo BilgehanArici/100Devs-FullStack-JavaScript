@@ -246,20 +246,20 @@
 // console.log(Math.random() * 50)
 
 
-if (true){
-  let letVariable = 'hello world';
-  var varVariable = 'hello world';
-  amVariable = 'hello world';
-}
-console.log(varVariable);
-console.log(letVariable); 
-console.log(amVariable); 
+// if (true){
+//   let letVariable = 'hello world';
+//   var varVariable = 'hello world';
+//   amVariable = 'hello world';
+// }
+// console.log(varVariable);
+// console.log(letVariable); 
+// console.log(amVariable); 
 
 
-if (walkSignal === 'Walk') {
-  console.log('You may walk!'); 
-} else {   
-  console.log('Do not walk!');
-}
+// if (walkSignal === 'Walk') {
+//   console.log('You may walk!'); 
+// } else {   
+//   console.log('Do not walk!');
+// }
 
 walkSignal==='walk' ? console.log('you may walk') : console.log('do not walk')
