@@ -490,16 +490,62 @@
 //     }
 // }
 
+//musketeers
 
-let row = 8
-let column = 8
-let octo = '#'
+// let musketeers = ['Athos','Porthos','Aramis']       
 
-for (i=1 ; i<=row; i++){
-    console.log(octo)
-    octo += "#"
+// for(i=0;i<musketeers.length;i++){
+//     console.log(musketeers[i])
+// }
+
+// musketeers.push('D\'Artagnan')
+
+// musketeers.forEach(element=>{
+//     console.log(element)
+// })
+
+// musketeers.splice(2,1)
+// console.log(musketeers)
+
+// for(element of musketeers){
+//     console.log(element)
+// }
+
+// //sum of values
+
+// let values = [3,11,7,2,9,10]
+// let sum = 0
+
+// values.forEach(element=>{
+//     sum+=element    
+// })
+
+// console.log(sum)
+
+
+// //array maximum
+// let values =[3,11,7,2,25,10]
+// let currentMax=values[0]
+
+// values.forEach(element=>{
+//     if (element>currentMax){
+//         currentMax=element
+//     }
+// })
+
+// console.log(currentMax)
+
+let words = []
+let word = ''
+
+while(word!='stop'){
+    word = prompt('give me a word ot write stop to exit')
+    if(word != 'stop'){
+        words.push(word)
+    }
 }
 
-
-
-
+console.log('you have entered these words before exiting')
+words.forEach(w=>{
+    console.log(w)
+})
