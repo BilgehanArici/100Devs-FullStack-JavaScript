@@ -535,17 +535,47 @@
 
 // console.log(currentMax)
 
-let words = []
-let word = ''
+// let words = []
+// let word = ''
 
-while(word!='stop'){
-    word = prompt('give me a word ot write stop to exit')
-    if(word != 'stop'){
-        words.push(word)
-    }
-}
+// while(word!='stop'){
+//     word = prompt('give me a word ot write stop to exit')
+//     if(word != 'stop'){
+//         words.push(word)
+//     }
+// }
 
-console.log('you have entered these words before exiting')
-words.forEach(w=>{
-    console.log(w)
-})
+// console.log('you have entered these words before exiting')
+// words.forEach(w=>{
+//     console.log(w)
+// })
+
+// let arr = ['my','name','is','bigo']
+
+// console.log(arr)
+
+// arr.splice(3,0,'bouthy','licious')
+
+// console.log(arr)
+
+// let arr = [1, 2];
+
+// // create an array from: arr and [3,4]
+// console.log( arr.concat([3, 4]) ); // 1,2,3,4
+
+// // create an array from: arr and [3,4] and [5,6]
+// console.log( arr.concat([3, 4], [5, 6]) ); // 1,2,3,4,5,6
+
+// // create an array from: arr and [3,4], then add values 5 and 6
+// console.log( arr.concat([3, 4], 5, 6) ); // 1,2,3,4,5,6
+
+// console.log(arr[2])
+
+// ["Bilbo", "Gandalf", "Nazgul"].forEach((item, index, array) => {
+//     console.log(`${item} is at index ${index} in ${array}`);
+//   });
+
+let name = ['b','i','g','o','l','i']
+
+console.log(name.indexOf('i'))
+console.log(name.lastIndexOf('i'))
