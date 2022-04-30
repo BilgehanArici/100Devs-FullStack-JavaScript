@@ -314,13 +314,13 @@
 //     const message = `Hello, ${firstName} ${lastName}!`;
 //     return message;
 //   }
-  
+
 //   firstName = prompt('first name')
 //   lastName = prompt('last name')
 //   alert(sayHello(firstName,lastName))
 
 
-  
+
 // // Square the given number x
 // function square1(x) {
 //   return total = x*x
@@ -575,7 +575,26 @@
 //     console.log(`${item} is at index ${index} in ${array}`);
 //   });
 
-let name = ['b','i','g','o','l','i']
+// let name = ['b','i','g','o','l','i']
 
-console.log(name.indexOf('i'))
-console.log(name.lastIndexOf('i'))
+// console.log(name.indexOf('i'))
+// console.log(name.lastIndexOf('i'))
+
+function repeatFnc(n, s) {
+    let a = ''
+    for (let i = 0; i < n; i++) {
+        a += s
+        return a
+    }
+}
+console.log(repeatFnc(3, 'hi'))
+
+
+function repeatStr(n, s) {
+    let str = ""
+    for (let i = 0; i < n; i++){
+        str += s
+    }
+    return str
+}
+console.log(repeatStr(3, 'hi'))
