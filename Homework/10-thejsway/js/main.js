@@ -580,21 +580,110 @@
 // console.log(name.indexOf('i'))
 // console.log(name.lastIndexOf('i'))
 
-function repeatFnc(n, s) {
-    let a = ''
-    for (let i = 0; i < n; i++) {
-        a += s
-        return a
-    }
-}
-console.log(repeatFnc(3, 'hi'))
+// function repeatFnc(n, s) {
+//     let a = ''
+//     for (let i = 0; i < n; i++) {
+//         a += s
+//         return a
+//     }
+// }
+// console.log(repeatFnc(3, 'hi'))
 
 
-function repeatStr(n, s) {
-    let str = ""
-    for (let i = 0; i < n; i++){
-        str += s
-    }
-    return str
-}
-console.log(repeatStr(3, 'hi'))
+// function repeatStr(n, s) {
+//     let str = ""
+//     for (let i = 0; i < n; i++){
+//         str += s
+//     }
+//     return str
+// }
+// console.log(repeatStr(3, 'hi'))
+
+// jsway chapter 7 coding time
+// Coding time!
+// Create all these programs in a generic fashion: the program output should reflect any update in the array's content.
+
+// Musketeers
+// Write a program that:
+
+// Creates an array named musketeers containing values "Athos", "Porthos" and "Aramis".
+// Shows each array element using a for loop.
+// Adds the "D'Artagnan" value to the array.
+// Shows each array element using the forEach() method.
+// Remove poor Aramis.
+// Shows each array element using a for-of loop.
+// Sum of values
+// let musketeers = ['Athos','Porthos','Aramis']
+
+// for(i=0;i<musketeers.length;i++){
+//     console.log(musketeers[i])
+// }
+
+// // musketeers[3] = 'D\'Artagnan'
+// // console.log(musketeers)
+
+// musketeers.push('D\'Artagnan')
+// console.log(musketeers)
+
+// musketeers.forEach(musketeer=>{
+//     console.log(musketeer)
+// })
+
+// musketeers.splice(2,1)
+// console.log(musketeers)
+
+// for(const musketeer of musketeers){
+//     console.log(musketeer)
+// }
+
+// Write a program that creates the following array, then calculates and shows the sum of its values (42 in that case).
+
+// const values = [3, 11, 7, 2, 9, 10];
+// Array maximum
+// Write a program that creates the following array, then calculates and shows the array's maximum value
+
+// const values = [3,10,7,2,9,13]
+// let maxVal = values[0]
+// for(i=0;i<values.length;i++){
+//     if(values[i]>maxVal){
+//         maxVal = values[i]
+//     }
+// }console.log(maxVal)
+
+// const nums = [1,3,2,7,54,33]
+// let maxNum = nums[0]
+// nums.forEach(num=>{
+//     if(num>maxNum){
+//         maxNum=num
+//     }
+// })
+// console.log(maxNum)
+
+// List of words
+// Write a program that asks the user for a word until the user types "stop". The program then shows each of these words, except "stop".
+
+// let answer = []
+// let userAnswer = ''
+// while(userAnswer != 'stop'){
+//     userAnswer = prompt('give me an answer')
+//     if(userAnswer!= 'stop'){
+//         answer.push(userAnswer)
+//     }
+// }
+// console.log(`you gave me these answers before writing stop ${answer}`)
+
+
+// let words = []
+// let word = ''
+
+// while(word!='stop'){
+//     word = prompt('give me a word ot write stop to exit')
+//     if(word != 'stop'){
+//         words.push(word)
+//     }
+// }
+
+// console.log('you have entered these words before exiting')
+// words.forEach(w=>{
+//     console.log(w)
+// })
