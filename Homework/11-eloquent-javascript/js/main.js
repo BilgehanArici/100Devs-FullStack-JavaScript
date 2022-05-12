@@ -262,4 +262,28 @@
 //   console.log('Do not walk!');
 // }
 
-walkSignal==='walk' ? console.log('you may walk') : console.log('do not walk')
+// walkSignal==='walk' ? console.log('you may walk') : console.log('do not walk')
+
+
+
+// // sum of range
+
+// function range(start, end, step = start <= end ? 1 : -1) {
+//     let result = []
+//     for (let i = start; step >= 0 ? i <= end : i >= end; i += step) {
+//         result.push(i)
+//     }
+//     return result
+// }
+
+// function sum(numbers) {
+//     result = 0
+//     for (let num of numbers) {
+//         result += num
+//     }
+//     return result
+// }
+
+// console.log(sum(range(1,10,1)))
+
+
