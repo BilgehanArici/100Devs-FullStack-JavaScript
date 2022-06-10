@@ -1,14 +1,32 @@
 // //Create a function that takes in an array of numbers. Return a new array containing every even number from the original array (do not use map or filter)
-function killWindmill(array) {
-    let newArr = []
+
+function meekMill(array) {
+    let emptyArr = []
     array.forEach(element => {
         if (element % 2 == 0){
-            newArr.push(element)
+            emptyArr.push(element)
         }
     })
-    return newArr
+    return emptyArr
 }
-console.log(killWindmill([1,2,3,4,5]))
+console.log(meekMill([1,2,3,4,5,6]))
+
+
+
+
+
+
+
+// function killWindmill(array) {
+//     let newArr = []
+//     array.forEach(element => {
+//         if (element % 2 == 0){
+//             newArr.push(element)
+//         }
+//     })
+//     return newArr
+// }
+// console.log(killWindmill([1,2,3,4,5]))
 
 
 
