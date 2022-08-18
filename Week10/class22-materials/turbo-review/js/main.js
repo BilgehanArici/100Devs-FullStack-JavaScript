@@ -1,10 +1,8 @@
 // // *Variables*
 // // Declare a variable and assign it to your fav drink as a string. Make sure there is no whitespace on either side of the string, and print the value to the console
-
-let favDrink = 'sprite'
-console.log(favDrink)
-
-
+let favDrink
+favDrink = '   russian mule   '
+console.log(favDrink.trim())
 
 
 
@@ -16,14 +14,8 @@ console.log(favDrink)
 // console.log(favDrink)
 
 // //Declare a variable, assign it a string of multiple words, and check to see if one of the words is "apple".
-let checkIfApple = 'carrot apple kiwi'
-console.log(checkIfApple.includes('apple'))
-
-
-
-
-
-
+let newVar = 'melon peach strawberry blueberry pear apple gojiberry'
+console.log(newVar.includes('apple'))
 
 
 
@@ -37,12 +29,15 @@ console.log(checkIfApple.includes('apple'))
 // // *Functions*
 // // Create a function that returns rock, paper, or scissors as randomly as possible
 function rockPaperScissors(){
-    
+    let rnd = Math.random()
+    if(rnd<0.33){
+        return 'rock'
+    }else if(rnd<0.66){
+        return 'paper'
+    }else{
+        return 'scissors'
+    }
 }
-
-
-
-
 
 
 
@@ -59,10 +54,21 @@ function rockPaperScissors(){
 // }
 // // *Conditionals*
 // //Create a function that takes in a choice (rock, paper, or scissors) and determines if they won a game of rock paper scissors against a bot using the above function
+function rockPaperScissorsGame(choice){
+    let random = rockPaperScissors()
+    let rules = {rock:'scissors',paper:'rock',scissors:'paper'}
+    if (random == choice){ 
+        return 'its a draw'
+    }else if(rules[choice]==random){
+        return 'you won'
+    }else{
+        return 'you lost'
+    }
+}
 
-
-
-
+for(let i=1;i<=10;i++){
+    console.log(rockPaperScissorsGame('rock'))
+}
 
 
 
@@ -84,11 +90,10 @@ function rockPaperScissors(){
 // //*Loops*
 // //Create a function that takes an array of choices. Play the game x times where x is the number of choices in the array. Print the results of each game to the console.
 
-function yello(array){
-    for(let i =array.length;i<=)
+function playGameXTimes(arr){
+    arr.forEach(element=>rockPaperScissorsGame(element))
 }
-
-
+playGameXTimes(['rock','paper','scissors'])
 
 
 
