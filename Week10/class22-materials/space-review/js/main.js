@@ -16,16 +16,28 @@ console.log(nums.reduce((a,b)=>a+b))
 
 //Create a function that takes in an array of numbers
 //Return a new array of numbers that is every original number squared
-function squareBot(array){
-    return newElement = array.map(element=>{
-        newElement = Math.pow(element,2)
-    })
+function yellomello(arr){
+    return arr.map(number=>Math.pow(number,2))
 }
-console.log(squareBot([1,2,3,4,5]))
+console.log(yellomello([1,2,3,4]))
 
 
 //Create a function that takes string
 //Print the reverse of that string to the console
+function stringo(str){
+    return str.split('').reverse().join('')
+}
+console.log(stringo('bigo'))
 
 //Create a function that takes in a string
 //Alert if the string is a palindrome or not
+function palin(str){
+    let reverse = str.split('').reverse().join('')
+    if(str == reverse){
+        return true
+    }else{
+        return false
+    }
+}
+console.log(palin('bigo'))
+console.log(palin('reviver'))
