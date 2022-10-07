@@ -50,10 +50,11 @@ function Stopwatch(){
         startTime = null
         endTime = null
         running = false
-        dutation = 0
+        duration = 0
     }
-
+    
     Object.defineProperty(this, 'duration', {
         get: function() {return duration}
     })
 }
+
