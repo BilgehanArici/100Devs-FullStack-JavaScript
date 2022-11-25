@@ -57,4 +57,3 @@ function Stopwatch(){
         get: function() {return duration}
     })
 }
-
