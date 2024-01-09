@@ -1,0 +1,16 @@
+h1{
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    font-family: 'source sans 3';
+    font-weight: 400;
+}
+
+p{
+    font-family: 'source sans 3', sans-serif;
+    font-weight: 700;
+    color: blue;
+}
+
