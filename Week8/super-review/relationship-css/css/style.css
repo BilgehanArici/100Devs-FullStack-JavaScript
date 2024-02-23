@@ -1,6 +1,9 @@
-h2{
+.makeRed{
     color: red;
 }
+/*
+css comment
+*/
 
 section>h2{
     color: blue;
