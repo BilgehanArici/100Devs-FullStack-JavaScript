@@ -5,49 +5,80 @@
 
 /* Clear fix hack */
 .clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
 }
 
 .clear {
-	clear: both;
+  clear: both;
 }
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
+body {}
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
 
-header, footer {
+header,
+footer {
   height: 100px;
-  border: 1px solid black;
+  border: 2px solid black;
   clear: both;
 }
 
-section{
-  height: 200px;
-  width: 33.3333%;
-  border: 1px solid black;
-  float: left;
+main,
+.bottom {
+  display: flex;
 }
 
-.bottom{
-  width: 50%;
+section {
+  height: 200px;
+  flex: 1;
+  border: 1px solid black;
 }
+
+/* float solution reqs only .bottom class on 2 bottom sections */
+/* 
+section {
+  width: 33.333%;
+  height: 150px;
+  border: 2px solid black;
+  float: left;
+}
+.bottom{
+  height: 200px;
+  width: 50%;
+} */
 
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+/* @media all and max-width:600 px means that between 0 and 600 px use the rule below */
+@media all and (max-width: 600px) {
+  section {
+    background: blue;
+    ;
+  }
+  .bottom{
+    display: none;
+  }
+}
+
+/* @media min-width:601px and max-width:1024 px means that between 601 px and 1024px use the rules below */
+@media (min-width:601px) and (max-width:1024px){
+  section{
+    background: red;
+  }
+}
+
